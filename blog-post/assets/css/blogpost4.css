@@ -1,0 +1,43 @@
+/*Blog Starts*/
+
+h3{
+	font-size: 30px;
+}
+.blog-title{
+	margin: 20px;
+	padding-left: 45px;
+	font-family: 'Open Sans', sans-serif;
+  	color: #ff9daa;
+  	text-transform: capitalize;
+}
+
+.blog-para{
+	font-family: 'Open Sans', sans-serif;
+	color: #ff9daa;
+	font-size: 14px;
+	margin: 0 0 28px;
+}
+
+.image {
+	position: relative;
+	transform: rotate(90deg);
+	width: 500px;
+	height: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+}
+
+.image-caption{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+  	font-style: italic;
+  	font-family: 'Gloria Hallelujah', cursive;
+  	font-size: 20px;
+  	padding: 10px;
+  	text-transform: capitalize;
+}
+/*Blog Ends*/

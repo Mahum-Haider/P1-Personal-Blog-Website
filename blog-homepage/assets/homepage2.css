@@ -1,0 +1,29 @@
+/*Titles Start*/
+
+.titles{
+	border: 1px solid #ff9daa;
+	max-width: 1125px;
+	margin: 15px auto;
+	padding: 45px 45px 0 45px;
+	background-color: #fafafa;
+	justify-content: center;
+}
+
+.ul-titles{
+	padding: 16px;
+	text-transform: uppercase;
+}
+
+li{
+	list-style-type: none;
+  	margin: 20px 2px 40px 2px;
+  	display: inline;
+  	padding: 40px;
+  	font-family: 'Open Sans', sans-serif;
+  	font-style: normal;
+  	font-size: 13px;
+  	font-weight: 500;
+  	letter-spacing: 2px;
+  	color: #ff9daa;
+}
+/*Titles End*/

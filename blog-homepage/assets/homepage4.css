@@ -1,0 +1,33 @@
+/*Boxes Section Start*/
+.bottom-card{
+	display: grid;
+	grid-gap: 40px;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 60px;
+	align-items: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #ff9daa;
+	text-transform: capitalize;
+}
+
+.box-1{
+	padding: 50px;
+	text-align: center;
+	border: 1px solid #ff9daa;
+}
+
+.box-2{
+	padding: 50px;
+	text-align: center;
+	border: 1px solid #ff9daa;
+
+}
+
+.box-3{
+	padding: 50px;
+	text-align: center;
+	border: 1px solid #ff9daa;
+}
+/*Boxes Section End*/

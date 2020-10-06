@@ -1,0 +1,43 @@
+@import url("homepage2.css");
+@import url("homepage3.css");
+@import url("homepage4.css");
+
+
+body {
+	background-color: #ffe9ec;
+	line-height: 1.4;
+}
+
+.wrapper {
+	display: grid;
+	grid-gap: 20px;
+}
+
+.nav {
+	width: 1440px 180px;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: 300;
+	padding: 5px;
+}
+
+
+/*Header Starts*/
+#header {
+	color: #ff9daa;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+/*Header Ends*/
+
+
+/*Footer Starts*/
+footer{
+	color: #ff9daa;
+	margin: 15px auto;
+	max-width: 1125px;
+	justify-content: center;
+	text-align: center;
+	text-transform: uppercase;
+}
+/*Footer Ends*/

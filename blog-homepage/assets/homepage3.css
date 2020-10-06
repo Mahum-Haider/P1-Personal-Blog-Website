@@ -1,0 +1,121 @@
+/*Media Queries Start*/
+.top-card {
+		display: grid;
+		grid-gap: 20px;
+		grid-template-areas: 
+		"lbb lbb lbb lbb"
+		"rba rba rba rba"
+		"rbb rbb rbb rbb";
+	}
+
+@media (min-width: 600px){
+	.top-card {
+		display: grid;
+		grid-gap: 20px;
+		grid-template-areas: 
+		"lbb lbb lbb lbb"
+		"rba rba rbb rbb";
+	}
+}
+
+@media (min-width: 768px){
+	.top-card {
+		display: grid;
+		grid-gap: 20px;
+		grid-template-areas: 
+		"lbb lbb lbb rba"
+		"lbb lbb lbb rbb";
+	}
+}
+/*Media Queries End*/
+
+/*Top Container Starts*/
+.left-big-box{
+	grid-area: lbb;
+	background: url("https://cdn.shopify.com/s/files/1/0912/4440/products/FullSizeRender.jpg-1_7084d14c-2899-4189-8103-09747b0db33a_1024x1024.jpg?v=1538062863");
+	background-size: cover;
+	background-position: center;
+	margin-left: 0;
+	min-height: 400px;
+	font-family: sans-serif;
+	align-items: center;
+	justify-content: flex-start;
+	border: 1px solid #ff9daa;
+	text-align: center;
+}
+.left-box-h2 {
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #ff9daa;
+	padding: 20px;
+	text-shadow: 1px 1px 3px white;
+	text-transform: uppercase;
+}
+.left-box-p{
+	font-family: sans-serif;
+	font-size: 22px;
+	text-shadow: 4px 4px 6px white;
+	color: #ff9daa;
+	padding: 20px;
+	text-transform: uppercase;
+}
+.left-box-btn{
+	background-color: white;
+	border: 1px solid #ff9daa;
+	color: #ff9daa;
+	padding: 5px 16px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.right-box-a{
+	grid-area: rba;
+	background-color: #fafafa;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #ff9daa;
+	text-align: center;
+	padding: 10px;
+	text-transform: capitalize;
+}
+
+.box-a-h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+  	font-style: normal;
+  	font-weight: normal;
+  	color: #ff9daa;
+
+}
+
+.right-box-b{
+	grid-area: rbb;
+	background: #fafafa;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #ff9daa;
+	padding: 10px;
+	text-transform: capitalize;
+}
+
+.box-b-h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+  	font-style: normal;
+  	font-weight: normal;
+  	color: #ff9daa;
+  	text-align: center;
+}
+
+.box-b-btn{
+	font-family: 'Open Sans', sans-serif;
+	background-color: white;
+	border: 1px solid #ff9daa;
+	color: #ff9daa;
+	padding: 5px 16px;
+	text-align: center;
+	text-transform: capitalize;
+}
+/*Top Container Ends*/
