@@ -12,5 +12,5 @@ In this project, you'll get to start from scratch! To complete the project, you 
 as well as any related CSS files for styling.
 
 Project Demo:
-[here](file:///Users/mahumhaider/Documents/Web%20-%20Udacity/Project-1/blog-homepage.html)
-[here](file:///Users/mahumhaider/Documents/Web%20-%20Udacity/Project-1/blog-post/blog-post.html)
+[here]: (file:///Users/mahumhaider/Documents/Web%20-%20Udacity/Project-1/blog-homepage.html)
+[here]: (file:///Users/mahumhaider/Documents/Web%20-%20Udacity/Project-1/blog-post/blog-post.html)
