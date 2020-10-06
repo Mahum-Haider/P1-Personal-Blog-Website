@@ -10,3 +10,7 @@ In this project, you'll get to start from scratch! To complete the project, you 
   * The Blog-Homepage
   * The Blog-Post
 as well as any related CSS files for styling.
+
+Click here for the full look:
+file:///Users/mahumhaider/Documents/Web%20-%20Udacity/Project-1/blog-homepage.html
+file:///Users/mahumhaider/Documents/Web%20-%20Udacity/Project-1/blog-post/blog-post.html
